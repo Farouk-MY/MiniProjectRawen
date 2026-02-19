@@ -1,0 +1,348 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Rawen",
+      "email": "rawen@eco.com",
+      "password": "password123",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/png?seed=Rawen",
+      "missionsCompleted": 5,
+      "hoursVolunteered": 18,
+      "treesPlanted": 12
+    },
+    {
+      "id": "2",
+      "name": "Amira Ben Ali",
+      "email": "amira@eco.com",
+      "password": "password123",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/png?seed=Amira",
+      "missionsCompleted": 3,
+      "hoursVolunteered": 10,
+      "treesPlanted": 6
+    },
+    {
+      "id": "3",
+      "name": "Youssef Trabelsi",
+      "email": "youssef@eco.com",
+      "password": "password123",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/png?seed=Youssef",
+      "missionsCompleted": 8,
+      "hoursVolunteered": 30,
+      "treesPlanted": 25
+    },
+    {
+      "id": "954b",
+      "name": "Farouk Messay",
+      "email": "faroukmessai221@gmail.com",
+      "password": "Farouk.2003",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/png?seed=Farouk%20Messay",
+      "missionsCompleted": 0,
+      "hoursVolunteered": 0,
+      "treesPlanted": 0
+    }
+  ],
+  "missions": [
+    {
+      "id": "1",
+      "title": "🌊 Sauvons la plage de Hammamet",
+      "description": "Chaque année, 8 millions de tonnes de plastique finissent dans nos océans. Rejoignez-nous pour une opération de nettoyage massive sur la plage de Hammamet !\n\n🎯 Ce que vous ferez :\n• Ramasser les déchets plastiques et microplastiques sur 2 km de côte\n• Trier et peser les déchets collectés pour notre rapport environnemental\n• Sensibiliser les visiteurs de la plage au respect du littoral\n\n🎁 Ce qui est fourni : Gants, sacs-poubelles, pinces de ramassage, eau et collation offerts. Chaque participant recevra un certificat de bénévolat.\n\n💚 Impact : L'an dernier, nous avons retiré 450 kg de déchets de cette même plage !",
+      "category": "beach-cleanup",
+      "date": "2026-03-15T09:00:00.000Z",
+      "location": "Plage de Hammamet, Tunisie",
+      "spotsTotal": 30,
+      "spotsTaken": 29,
+      "image": "https://images.unsplash.com/photo-1621451537084-482c73073a0f?w=800&q=80",
+      "organizer": "EcoAction Tunisie",
+      "duration": "3 heures"
+    },
+    {
+      "id": "2",
+      "title": "🌳 Plantons 500 arbres au parc Ennahli",
+      "description": "Un arbre absorbe en moyenne 22 kg de CO₂ par an. Ensemble, plantons 500 arbres pour créer un poumon vert au cœur de l'Ariana !\n\n🎯 Ce que vous ferez :\n• Planter des jeunes pousses d'oliviers, de caroubiers et de pins d'Alep\n• Apprendre les techniques de plantation et d'arrosage durable\n• Installer des protections pour les jeunes arbres contre les animaux\n\n🎁 Ce qui est fourni : Outils de jardinage, plants, eau, déjeuner bio sur place. T-shirt souvenir pour chaque bénévole.\n\n💚 Impact : Ces 500 arbres absorberont 11 tonnes de CO₂ par an et créeront un habitat pour la faune locale.",
+      "category": "tree-planting",
+      "date": "2026-03-22T08:00:00.000Z",
+      "location": "Parc Ennahli, Ariana, Tunisie",
+      "spotsTotal": 50,
+      "spotsTaken": 32,
+      "image": "https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?w=800&q=80",
+      "organizer": "Green Tunisia",
+      "duration": "4 heures"
+    },
+    {
+      "id": "3",
+      "title": "♻️ Atelier Zéro Déchet : Vivez autrement",
+      "description": "Le Tunisien moyen produit 0,8 kg de déchets par jour. Et si on changeait ça ensemble ? Cet atelier pratique vous donnera les clés d'un quotidien presque sans déchet.\n\n🎯 Ce que vous apprendrez :\n• Fabriquer vos propres produits ménagers naturels (lessive, nettoyant)\n• Maîtriser le compostage en appartement avec un lombricomposteur\n• Créer des emballages bee-wrap réutilisables\n• Organiser un garde-manger zéro déchet\n\n🎁 Ce qui est fourni : Kit de démarrage zéro déchet offert (sac en tissu, bee-wrap, recettes). Matériel pour tous les ateliers.\n\n💚 Impact : Adopter le zéro déchet réduit vos déchets ménagers de 80% en moyenne !",
+      "category": "zero-waste",
+      "date": "2026-04-05T14:00:00.000Z",
+      "location": "Maison de la Culture, Tunis",
+      "spotsTotal": 20,
+      "spotsTaken": 17,
+      "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=800&q=80",
+      "organizer": "Zéro Déchet Tunisie",
+      "duration": "2 heures"
+    },
+    {
+      "id": "4",
+      "title": "📦 Grande collecte recyclage à La Marsa",
+      "description": "Seulement 4% des déchets sont recyclés en Tunisie. Changeons cette statistique ensemble ! Cette collecte massive vise à trier et valoriser les déchets recyclables du quartier.\n\n🎯 Ce que vous ferez :\n• Collecter les déchets recyclables porte-à-porte dans le quartier\n• Trier plastique, verre, papier et métal dans nos stations de tri\n• Sensibiliser les habitants avec des flyers et des conseils pratiques\n• Peser et documenter la collecte pour notre base de données\n\n🎁 Ce qui est fourni : Chasubles, gants, sacs de tri colorés, eau et encas. Attestation de bénévolat délivrée.\n\n💚 Impact : Lors de notre dernière collecte, 1,2 tonne de déchets ont été détournés de la décharge !",
+      "category": "recycling",
+      "date": "2026-04-12T09:00:00.000Z",
+      "location": "La Marsa, Tunisie",
+      "spotsTotal": 25,
+      "spotsTaken": 8,
+      "image": "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?w=800&q=80",
+      "organizer": "Recyclage pour Tous",
+      "duration": "3 heures"
+    },
+    {
+      "id": "5",
+      "title": "📚 Les Éco-Explorateurs : Journée nature pour enfants",
+      "description": "Les enfants d'aujourd'hui sont les protecteurs de demain ! Offrez-leur une journée inoubliable de découverte de la nature et d'éveil écologique.\n\n🎯 Au programme :\n• Chasse au trésor nature : identifier 20 espèces de plantes et d'insectes\n• Atelier « petit jardinier » : chaque enfant plante sa graine à emporter\n• Conte écologique interactif sur le cycle de l'eau\n• Fabrication d'un nichoir à oiseaux en matériaux recyclés\n\n🎁 Ce qui est fourni : Goûter bio, carnet d'explorateur nature, plante en pot à emporter. Encadrement par des animateurs certifiés.\n\n💚 Impact : 92% des enfants ayant participé l'an dernier ont adopté au moins un geste écologique quotidien !",
+      "category": "education",
+      "date": "2026-04-19T10:00:00.000Z",
+      "location": "École Primaire Carthage, Tunisie",
+      "spotsTotal": 15,
+      "spotsTaken": 12,
+      "image": "https://images.unsplash.com/photo-1588075592446-265fd1e6e76f?w=800&q=80",
+      "organizer": "Éducation Verte",
+      "duration": "5 heures"
+    },
+    {
+      "id": "6",
+      "title": "🏖️ Opération littoral propre à Sidi Bou Saïd",
+      "description": "Le village bleu et blanc de Sidi Bou Saïd est un joyau du patrimoine tunisien. Protégeons son littoral emblématique des déchets qui menacent sa beauté et sa biodiversité marine.\n\n🎯 Ce que vous ferez :\n• Nettoyer les falaises, sentiers côtiers et la petite plage du port\n• Cartographier les zones les plus polluées pour un suivi annuel\n• Participer à un comptage des espèces marines observées\n• Installer des poubelles de tri sélectif sur le sentier côtier\n\n🎁 Ce qui est fourni : Équipement complet de nettoyage, petit-déjeuner tunisien offert, badge « Gardien du Littoral ».\n\n💚 Impact : En protégeant ce littoral, nous préservons l'habitat de 45 espèces marines méditerranéennes.",
+      "category": "beach-cleanup",
+      "date": "2026-05-03T08:30:00.000Z",
+      "location": "Sidi Bou Saïd, Tunisie",
+      "spotsTotal": 40,
+      "spotsTaken": 22,
+      "image": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&q=80",
+      "organizer": "Protégeons nos Côtes",
+      "duration": "3 heures"
+    },
+    {
+      "id": "7",
+      "title": "🌲 Reboisement d'urgence – Forêt de Zaghouan",
+      "description": "La forêt de Zaghouan a perdu 200 hectares lors des incendies de l'été dernier. Cette opération massive de reboisement vise à redonner vie à cet écosystème vital.\n\n🎯 Ce que vous ferez :\n• Planter des pins d'Alep et des chênes-lièges adaptés au climat local\n• Préparer le terrain avec des techniques anti-érosion\n• Installer des systèmes de micro-irrigation pour les jeunes plants\n• Documenter le reboisement avec photos géolocalisées\n\n🎁 Ce qui est fourni : Transport en bus depuis Tunis (aller-retour), outils, plants, déjeuner champêtre et eau. Certificat de reboisement avec coordonnées GPS de vos arbres.\n\n💚 Impact : Ces arbres créeront un corridor écologique reliant deux zones protégées et abriteront 120 espèces d'oiseaux.",
+      "category": "tree-planting",
+      "date": "2026-05-10T07:00:00.000Z",
+      "location": "Forêt de Zaghouan, Tunisie",
+      "spotsTotal": 60,
+      "spotsTaken": 45,
+      "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?w=800&q=80",
+      "organizer": "Forêts de Tunisie",
+      "duration": "6 heures"
+    },
+    {
+      "id": "8",
+      "title": "🌱 Atelier compostage urbain : De l'assiette au jardin",
+      "description": "30% de nos poubelles sont des déchets organiques ! Apprenez à les transformer en or noir pour vos plantes, même en appartement.\n\n🎯 Ce que vous apprendrez :\n• Construire un lombricomposteur avec des matériaux de récupération\n• Maîtriser l'équilibre carbone/azote pour un compost parfait\n• Utiliser le compost comme engrais naturel pour balcon et jardin\n• Éviter les erreurs courantes (odeurs, moucherons)\n\n🎁 Ce qui est fourni : Kit de démarrage compostage (bac, vers, guide). Thé et pâtisseries maison pendant l'atelier.\n\n💚 Impact : Un composteur domestique détourne 150 kg de déchets de la décharge par an, soit l'équivalent de 50 kg de CO₂ évités !",
+      "category": "zero-waste",
+      "date": "2026-05-17T15:00:00.000Z",
+      "location": "Jardin Partagé, Le Bardo, Tunisie",
+      "spotsTotal": 15,
+      "spotsTaken": 15,
+      "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800&q=80",
+      "organizer": "Compost Citoyen",
+      "duration": "2 heures"
+    }
+  ],
+  "participations": [
+    {
+      "id": "1",
+      "userId": "1",
+      "missionId": "1",
+      "status": "confirmed",
+      "joinedAt": "2026-02-10T10:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "userId": "1",
+      "missionId": "3",
+      "status": "confirmed",
+      "joinedAt": "2026-02-12T14:00:00.000Z"
+    },
+    {
+      "id": "eaeb",
+      "userId": "1",
+      "missionId": "1",
+      "status": "confirmed",
+      "joinedAt": "2026-02-19T13:13:47.728Z"
+    },
+    {
+      "id": "5e35",
+      "userId": "1",
+      "missionId": "1",
+      "status": "confirmed",
+      "joinedAt": "2026-02-19T13:13:56.749Z"
+    },
+    {
+      "id": "8720",
+      "userId": "1",
+      "missionId": "1",
+      "status": "confirmed",
+      "joinedAt": "2026-02-19T13:13:58.280Z"
+    },
+    {
+      "id": "e45b",
+      "userId": "1",
+      "missionId": "1",
+      "status": "confirmed",
+      "joinedAt": "2026-02-19T13:13:59.242Z"
+    },
+    {
+      "id": "2cc5",
+      "userId": "1",
+      "missionId": "1",
+      "status": "confirmed",
+      "joinedAt": "2026-02-19T13:14:00.397Z"
+    },
+    {
+      "id": "3294",
+      "userId": "1",
+      "missionId": "1",
+      "status": "confirmed",
+      "joinedAt": "2026-02-19T13:14:04.707Z"
+    },
+    {
+      "id": "2758",
+      "userId": "1",
+      "missionId": "1",
+      "status": "confirmed",
+      "joinedAt": "2026-02-19T13:14:05.908Z"
+    },
+    {
+      "id": "eac4",
+      "userId": "1",
+      "missionId": "1",
+      "status": "confirmed",
+      "joinedAt": "2026-02-19T13:14:07.730Z"
+    },
+    {
+      "id": "01c4",
+      "userId": "1",
+      "missionId": "1",
+      "status": "confirmed",
+      "joinedAt": "2026-02-19T13:14:11.936Z"
+    },
+    {
+      "id": "cd59",
+      "userId": "1",
+      "missionId": "3",
+      "status": "confirmed",
+      "joinedAt": "2026-02-19T13:15:20.245Z"
+    },
+    {
+      "id": "da05",
+      "userId": "1",
+      "missionId": "3",
+      "status": "confirmed",
+      "joinedAt": "2026-02-19T13:15:27.397Z"
+    },
+    {
+      "id": "0ec6",
+      "userId": "1",
+      "missionId": "8",
+      "status": "confirmed",
+      "joinedAt": "2026-02-19T13:22:09.395Z"
+    },
+    {
+      "id": "d4d0",
+      "userId": "1",
+      "missionId": "8",
+      "status": "confirmed",
+      "joinedAt": "2026-02-19T13:22:14.043Z"
+    },
+    {
+      "id": "ba95",
+      "userId": "1",
+      "missionId": "8",
+      "status": "confirmed",
+      "joinedAt": "2026-02-19T13:22:15.888Z"
+    },
+    {
+      "id": "d577",
+      "userId": "1",
+      "missionId": "8",
+      "status": "confirmed",
+      "joinedAt": "2026-02-19T13:22:17.365Z"
+    },
+    {
+      "id": "8bd6",
+      "userId": "1",
+      "missionId": "8",
+      "status": "confirmed",
+      "joinedAt": "2026-02-19T13:22:18.251Z"
+    },
+    {
+      "id": "c4ae",
+      "userId": "1",
+      "missionId": "8",
+      "status": "confirmed",
+      "joinedAt": "2026-02-19T13:22:19.045Z"
+    },
+    {
+      "id": "4f08",
+      "userId": "1",
+      "missionId": "8",
+      "status": "confirmed",
+      "joinedAt": "2026-02-19T13:22:19.657Z"
+    },
+    {
+      "id": "736b",
+      "userId": "1",
+      "missionId": "8",
+      "status": "confirmed",
+      "joinedAt": "2026-02-19T13:22:19.870Z"
+    },
+    {
+      "id": "ce77",
+      "userId": "1",
+      "missionId": "8",
+      "status": "confirmed",
+      "joinedAt": "2026-02-19T13:22:20.252Z"
+    },
+    {
+      "id": "83a4",
+      "userId": "1",
+      "missionId": "8",
+      "status": "confirmed",
+      "joinedAt": "2026-02-19T13:22:20.598Z"
+    },
+    {
+      "id": "797f",
+      "userId": "1",
+      "missionId": "8",
+      "status": "confirmed",
+      "joinedAt": "2026-02-19T13:22:20.906Z"
+    },
+    {
+      "id": "b9fd",
+      "userId": "1",
+      "missionId": "8",
+      "status": "confirmed",
+      "joinedAt": "2026-02-19T13:22:21.198Z"
+    },
+    {
+      "id": "8b20",
+      "userId": "1",
+      "missionId": "1",
+      "status": "confirmed",
+      "joinedAt": "2026-02-19T13:34:03.822Z"
+    },
+    {
+      "id": "722f",
+      "userId": "1",
+      "missionId": "1",
+      "status": "confirmed",
+      "joinedAt": "2026-02-19T13:34:05.273Z"
+    },
+    {
+      "id": "81db",
+      "userId": "954b",
+      "missionId": "1",
+      "status": "confirmed",
+      "joinedAt": "2026-02-19T16:50:00.029Z"
+    }
+  ]
+}
