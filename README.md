@@ -1,50 +1,71 @@
-# Welcome to your Expo app 👋
+# 🌿 EcoAction - Plateforme de Bénévolat Environnemental
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+EcoAction est une application mobile moderne conçue pour encourager l'engagement citoyen dans des actions environnementales locales. Les utilisateurs peuvent découvrir des missions de bénévolat, s'y inscrire et suivre leur impact écologique.
 
-## Get started
+## ✨ Fonctionnalités
 
-1. Install dependencies
+- **Authentification complète** : Inscription et connexion utilisateur (simulée via API).
+- **Exploration des missions** :
+  - Liste des missions disponibles (fetchées dynamiquement).
+  - Filtrage par catégorie (Plages, Arbres, Zéro Déchet, etc.).
+  - Recherche textuelle performante.
+  - Détails complets : description, date, lieu, places restantes.
+- **Gestion des participations** :
+  - Inscription aux missions avec **Optimistic UI** pour une réactivité instantanée.
+  - Annulation de participation.
+  - Vue "Mes Missions" pour la consultation de l'agenda personnel.
+- **Profil Utilisateur** : Affichage des statistiques d'impact (missions réalisées, heures, arbres plantés).
+- **Gestion intelligente du cache** : Utilisation de TanStack Query pour une expérience fluide même hors-ligne.
+
+## 🛠️ Stack Technique
+
+- **Frontend** : [React Native](https://reactnative.dev/) avec [Expo](https://expo.dev/) (SDK 54).
+- **Navigation** : [Expo Router](https://docs.expo.dev/router/introduction/) (système basé sur les fichiers).
+- **Styling** : [NativeWind](https://www.nativewind.dev/) (Tailwind CSS pour React Native).
+- **Gestion d'état & Cache** : [TanStack Query](https://tanstack.com/query/latest) (v5).
+- **Icônes** : [Lucide React Native](https://lucide.dev/guide/packages/lucide-react-native).
+- **Base de données** : [JSON-Server](https://github.com/typicode/json-server) (API REST simulée).
+
+## 🚀 Installation et Démarrage
+
+### Prérequis
+
+- Node.js (dernière version LTS recommandée)
+- Un appareil mobile avec l'app **Expo Go** ou un émulateur (Android/iOS).
+
+### Étapes
+
+1. **Cloner le projet** :
+
+   ```bash
+   git clone [url-du-repo]
+   cd EcoAction_ReactNative
+   ```
+
+2. **Installer les dépendances** :
 
    ```bash
    npm install
    ```
 
-2. Start the app
+3. **Lancer le serveur API (JSON-Server)** :
+   Dans un terminal séparé :
 
+   ```bash
+   npm run server
+   ```
+
+   _Note : Le projet détecte automatiquement votre adresse IP LAN pour permettre la connexion depuis un appareil physique._
+
+4. **Démarrer l'application Expo** :
    ```bash
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+## 📱 Développement Cross-Device
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+L'application intègre une configuration réseau dynamique (`api/client.ts`) qui permet de basculer automatiquement entre :
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- `10.0.2.2` pour l'émulateur Android.
+- `localhost` pour le web/iOS simulator.
+- Votre **IP LAN** pour les tests sur téléphones physiques via Expo Go.

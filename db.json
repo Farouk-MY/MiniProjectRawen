@@ -63,7 +63,7 @@
       "date": "2026-03-22T08:00:00.000Z",
       "location": "Parc Ennahli, Ariana, Tunisie",
       "spotsTotal": 50,
-      "spotsTaken": 32,
+      "spotsTaken": 33,
       "image": "https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?w=800&q=80",
       "organizer": "Green Tunisia",
       "duration": "4 heures"
@@ -343,6 +343,13 @@
       "missionId": "1",
       "status": "confirmed",
       "joinedAt": "2026-02-19T16:50:00.029Z"
+    },
+    {
+      "id": "b84d",
+      "userId": "8a11",
+      "missionId": "2",
+      "status": "confirmed",
+      "joinedAt": "2026-02-19T23:28:54.365Z"
     }
   ]
 }
